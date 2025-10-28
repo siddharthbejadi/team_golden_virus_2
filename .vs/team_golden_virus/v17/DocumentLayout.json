@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "B:\\Team Software\\team_golden_virus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|b:\\team software\\team_golden_virus\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|b:\\team software\\team_golden_virus\\views\\authenticate\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|solutionrelative:views\\authenticate\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|b:\\team software\\team_golden_virus\\controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|solutionrelative:controllers\\helloworldcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|b:\\team software\\team_golden_virus\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "B:\\Team Software\\team_golden_virus\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "B:\\Team Software\\team_golden_virus\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T15:22:50.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "login.cshtml",
+              "DocumentMoniker": "B:\\Team Software\\team_golden_virus\\Views\\Authenticate\\login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Authenticate\\login.cshtml",
+              "ToolTip": "B:\\Team Software\\team_golden_virus\\Views\\Authenticate\\login.cshtml",
+              "RelativeToolTip": "Views\\Authenticate\\login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T15:19:09.532Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "B:\\Team Software\\team_golden_virus\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "B:\\Team Software\\team_golden_virus\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T14:44:33.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HelloWorldController.cs",
+              "DocumentMoniker": "B:\\Team Software\\team_golden_virus\\Controllers\\HelloWorldController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HelloWorldController.cs",
+              "ToolTip": "B:\\Team Software\\team_golden_virus\\Controllers\\HelloWorldController.cs",
+              "RelativeToolTip": "Controllers\\HelloWorldController.cs",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAmwA4AAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T15:59:26.929Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
