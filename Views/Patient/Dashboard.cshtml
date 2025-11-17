@@ -1,0 +1,113 @@
+﻿@model team_golden_virus.ViewModels.PatientDashboardViewModel
+@{
+    ViewData["Title"] = "Patient Overview";
+}
+
+<h1 class="mb-4">@ViewData["Title"]</h1>
+
+<div class="row g-4">
+    <div class="col-lg-8">
+        <div class="card shadow-sm mb-4">
+            <div class="card-header">
+                <h3>Peak Pressure Monitor</h3>
+            </div>
+            <div class="card-body">
+                <canvas id="pressureChart"></canvas>
+            </div>
+        </div>
+
+        <div class="card shadow-sm">
+            <div class="card-header">
+                <h3>Ulcer Prevention Alerts</h3>
+            </div>
+            <div class="card-body">
+                <ul class="list-group">
+                    @foreach (var alert in Model.ActiveAlerts)
+                    {
+                        var alertClass = alert.Severity == "critical" ? "list-group-item-danger" : "list-group-item-warning";
+                        <li class="list-group-item @alertClass">
+                            <strong>@alert.Severity.ToUpper():</strong> @alert.Message
+                            <span class="text-muted small float-end">@alert.Timestamp.ToShortTimeString()</span>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-4">
+        <div class="card shadow-sm mb-4">
+            <div class="card-header">
+                <h3>Your Care Team</h3>
+            </div>
+            <div class="card-body">
+                <h4>@Model.ClinicianName</h4>
+                <p class="text-muted">@Model.ClinicianSpecialty</p>
+                <p><strong>Next Appointment:</strong> @Model.NextAppointment.ToString("g")</p>
+                <a href="mailto:@Model.ClinicianEmail" class="btn btn-primary w-100 mb-2">Send Message</a>
+                <a href="#" class="btn btn-outline-secondary w-100">Schedule Call</a>
+            </div>
+        </div>
+
+        <div class="card shadow-sm">
+            <div class="card-header">
+                <h3>Foot Pressure Heatmap</h3>
+            </div>
+            <div class="card-body">
+                <p class="text-muted small">Current pressure distribution</p>
+                <ul class="list-group">
+                    @foreach (var zone in Model.HeatmapZones)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            @zone.Label
+                            <span class="badge bg-primary rounded-pill">@zone.Pressure mmHg</span>
+                        </li>
+                    }
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // 1. Get the data from the C# Model
+        //    Use System.Text.Json to serialize
+        const pressureData = @Html.Raw(System.Text.Json.JsonSerializer.Serialize(Model.PressureHistory));
+
+        // 2. Get the canvas element
+        const ctx = document.getElementById('pressureChart');
+
+        // 3. Create the chart (just like in React)
+        new Chart(ctx, {
+            type: 'line',
+            data: {
+                labels: pressureData.map(row => row.time),
+                datasets: [
+                    {
+                        label: 'Peak Pressure',
+                        data: pressureData.map(row => row.pressure),
+                        borderColor: '#8b5cf6', // Purple color
+                        tension: 0.1
+                    },
+                    {
+                        label: 'Alert Threshold',
+                        data: pressureData.map(row => row.threshold),
+                        borderColor: '#ef4444', // Red color
+                        borderDash: [5, 5],
+                    }
+                ]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        title: { display: true, text: 'Pressure (mmHg)' }
+                    }
+                }
+            }
+        });
+    </script>
+}

@@ -25,9 +25,9 @@ B:\Team Software\team_golden_virus\obj\Debug\net8.0\staticwebassets.build.json
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\staticwebassets.build.json.cache
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\staticwebassets.development.json
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-B:\Team Software\team_golden_virus\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\team_golden_virus.dll
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\refint\team_golden_virus.dll
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\team_golden_virus.pdb
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\team_golden_virus.genruntimeconfig.cache
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\ref\team_golden_virus.dll
+B:\Team Software\team_golden_virus\obj\Debug\net8.0\team_golden_virus.sourcelink.json
