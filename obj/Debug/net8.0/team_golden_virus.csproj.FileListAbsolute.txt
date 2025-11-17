@@ -31,3 +31,36 @@ B:\Team Software\team_golden_virus\obj\Debug\net8.0\refint\team_golden_virus.dll
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\team_golden_virus.pdb
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\team_golden_virus.genruntimeconfig.cache
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\ref\team_golden_virus.dll
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\appsettings.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\team_golden_virus.staticwebassets.runtime.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\team_golden_virus.staticwebassets.endpoints.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\team_golden_virus.exe
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\team_golden_virus.deps.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\team_golden_virus.runtimeconfig.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\team_golden_virus.dll
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\team_golden_virus.pdb
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.AssemblyInfoInputs.cache
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.AssemblyInfo.cs
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.csproj.CoreCompileInputs.cache
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.RazorAssemblyInfo.cache
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.RazorAssemblyInfo.cs
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.sourcelink.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\scopedcss\bundle\team_golden_virus.styles.css
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\scopedcss\projectbundle\team_golden_virus.bundle.scp.css
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.dll
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\refint\team_golden_virus.dll
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.pdb
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.genruntimeconfig.cache
+C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\ref\team_golden_virus.dll

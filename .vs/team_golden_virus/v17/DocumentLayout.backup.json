@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "B:\\Team Software\\team_golden_virus\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|b:\\team software\\team_golden_virus\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|b:\\team software\\team_golden_virus\\views\\authenticate\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A06A3616-8AD2-42DA-89C3-0210732894AB}|team_golden_virus.csproj|solutionrelative:views\\authenticate\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -27,11 +31,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "B:\\Team Software\\team_golden_virus\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "B:\\Team Software\\team_golden_virus\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABwAAAB6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-25T15:22:50.091Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "login.cshtml",
               "DocumentMoniker": "B:\\Team Software\\team_golden_virus\\Views\\Authenticate\\login.cshtml",
               "RelativeDocumentMoniker": "Views\\Authenticate\\login.cshtml",
-              "ToolTip": "B:\\Team Software\\team_golden_virus\\Views\\Authenticate\\login.cshtml*",
-              "RelativeToolTip": "Views\\Authenticate\\login.cshtml*",
+              "ToolTip": "B:\\Team Software\\team_golden_virus\\Views\\Authenticate\\login.cshtml",
+              "RelativeToolTip": "Views\\Authenticate\\login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-10-25T15:19:09.532Z",
@@ -43,7 +60,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "B:\\Team Software\\team_golden_virus\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
@@ -56,7 +73,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "HelloWorldController.cs",
               "DocumentMoniker": "B:\\Team Software\\team_golden_virus\\Controllers\\HelloWorldController.cs",
               "RelativeDocumentMoniker": "Controllers\\HelloWorldController.cs",
