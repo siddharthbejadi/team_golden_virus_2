@@ -25,12 +25,12 @@ B:\Team Software\team_golden_virus\obj\Debug\net8.0\staticwebassets.build.json
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\staticwebassets.build.json.cache
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\staticwebassets.development.json
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-B:\Team Software\team_golden_virus\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\team_golden_virus.dll
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\refint\team_golden_virus.dll
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\team_golden_virus.pdb
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\team_golden_virus.genruntimeconfig.cache
 B:\Team Software\team_golden_virus\obj\Debug\net8.0\ref\team_golden_virus.dll
+<<<<<<< HEAD
 C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\appsettings.Development.json
 C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\appsettings.json
 C:\Users\Gangadhar\source\repos\team_golden_virus_2\bin\Debug\net8.0\team_golden_virus.staticwebassets.runtime.json
@@ -64,3 +64,6 @@ C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\refint\team
 C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.pdb
 C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\team_golden_virus.genruntimeconfig.cache
 C:\Users\Gangadhar\source\repos\team_golden_virus_2\obj\Debug\net8.0\ref\team_golden_virus.dll
+=======
+B:\Team Software\team_golden_virus\obj\Debug\net8.0\team_golden_virus.sourcelink.json
+>>>>>>> 472c17607b3e959022ace4d79686f9efd841cc75

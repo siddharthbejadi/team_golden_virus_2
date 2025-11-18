@@ -15,7 +15,11 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("team_golden_virus")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
+<<<<<<< HEAD
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2b8aa6045fedd786ca7b3476c57cf1331bec7fab")]
+=======
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+820806a1bae702f55abe9cf8d4c252ad4eb9938d")]
+>>>>>>> 472c17607b3e959022ace4d79686f9efd841cc75
 [assembly: System.Reflection.AssemblyProductAttribute("team_golden_virus")]
 [assembly: System.Reflection.AssemblyTitleAttribute("team_golden_virus")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
