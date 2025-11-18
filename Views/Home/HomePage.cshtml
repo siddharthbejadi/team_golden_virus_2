@@ -1,0 +1,186 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+
+<!-- Modern Clean Hero (Updated — No Heatmap, Centered CTAs) -->
+<section class="hero d-flex align-items-center justify-content-center text-center">
+    <div class="hero-content">
+        <h1 class="title">Sensore: The Future of Pressure Ulcer Prevention</h1>
+        <p class="subtitle">Real‑time smart‑sensor insights that empower safer, faster, and smarter patient care.</p>
+
+        <div class="cta-group-centered">
+            <a asp-controller="Account" asp-action="Login" class="btn-primary btn-large">Log In</a>
+            <a asp-controller="Account" asp-action="Register" class="btn-outline btn-large">New User? Sign Up</a>
+        </div>
+    </div>
+</section>
+
+<!-- Features Section -->
+<section class="features">
+    <h2 class="section-title">Powerful Monitoring Built for Better Outcomes</h2>
+    <p class="section-sub">Replacing manual checks with intelligent, continuous digital assessment.</p>
+
+    <div class="feature-grid">
+        <div class="feature-card">
+            <div class="icon">⌚</div>
+            <h3>Real‑Time Alerts</h3>
+            <p>Instant warnings when pressure exceeds safe thresholds—enabling rapid response.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">📊</div>
+            <h3>Actionable Metrics</h3>
+            <p>Peak Pressure Index & Contact Area % provide meaningful clinical insights.</p>
+        </div>
+
+        <div class="feature-card">
+            <div class="icon">🤝</div>
+            <h3>Connected Care</h3>
+            <p>Built‑in messaging and video calling keep patients and clinicians aligned.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Roles Section -->
+<section class="roles">
+    <h2 class="section-title">Designed for Every Role in Care</h2>
+
+    <div class="role-grid">
+        <div class="role-card">
+            <h3>Patient</h3>
+            <p>Track your pressure health and stay connected with your clinician.</p>
+        </div>
+        <div class="role-card">
+            <h3>Clinician</h3>
+            <p>Manage alerts, review metrics, and guide patient care efficiently.</p>
+        </div>
+        <div class="role-card">
+            <h3>Admin</h3>
+            <p>Maintain platform integrity and manage accounts with ease.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <p class="trust">Built with encrypted, compliant technology ensuring medical‑grade data protection.</p>
+
+    <a asp-controller="Account" asp-action="Login" class="btn-outline-light">Log In Now</a>
+
+    <div class="footer-links">
+        <a href="#">Features</a>
+        <a href="#">How It Works</a>
+        <a href="#">About</a>
+        <a href="#">Terms</a>
+        <a href="#">Privacy</a>
+    </div>
+</footer>
+
+<!-- Minimal Modern Styles -->
+<style>
+    body {
+        font-family: 'Inter', sans-serif;
+    }
+
+    .hero {
+        padding: 100px 20px;
+        background: #fafafa;
+    }
+
+    .hero-content {
+        max-width: 800px;
+    }
+
+    .title {
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .subtitle {
+        color: #666;
+        font-size: 1.1rem;
+        margin-bottom: 30px;
+    }
+
+    .cta-group-centered .btn-primary, .btn-outline {
+        padding: 12px 26px;
+        border-radius: 10px;
+        font-weight: 600;
+    }
+
+    .btn-primary {
+        background: #e45a67;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    .btn-outline {
+        border: 2px solid #e45a67;
+        color: #e45a67;
+        text-decoration: none;
+    }
+
+
+    .features, .roles {
+        padding: 80px 20px;
+        text-align: center;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .section-sub {
+        color: #666;
+        margin-bottom: 40px;
+    }
+
+    .feature-grid, .role-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+        gap: 25px;
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    .feature-card, .role-card {
+        padding: 30px;
+        background: white;
+        border-radius: 14px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+    }
+
+    .icon {
+        font-size: 2.4rem;
+        margin-bottom: 10px;
+    }
+
+    .footer {
+        background: #222;
+        padding: 40px 20px;
+        text-align: center;
+        color: #bbb;
+    }
+
+    .footer-links a {
+        margin: 0 10px;
+        color: #bbb;
+        text-decoration: none;
+        font-size: 0.9rem;
+    }
+
+    .cta-group-centered {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 35px;
+    }
+
+    .btn-large {
+        padding: 14px 34px;
+        font-size: 1.05rem;
+    }
+</style>

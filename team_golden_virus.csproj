@@ -5,17 +5,23 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>bf19a1fb-dde1-4c9e-a044-63bd8c1ecc82</UserSecretsId>
+    <AssemblyName>Graphene_Trace_Software</AssemblyName>
+    <RootNamespace>Graphene_Trace_Software</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\NewFolder\**" />
     <Compile Remove="Views\NewFolder1\**" />
+    <Content Remove="Models\NewFolder\**" />
     <Content Remove="Views\NewFolder1\**" />
+    <EmbeddedResource Remove="Models\NewFolder\**" />
     <EmbeddedResource Remove="Views\NewFolder1\**" />
+    <None Remove="Models\NewFolder\**" />
     <None Remove="Views\NewFolder1\**" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\NewFolder\" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
   </ItemGroup>
 
 </Project>

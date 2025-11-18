@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Clinician Dashboard";
+}
+
+<h1>Clinician Dashboard</h1>
+<p>Welcome, Clinician.</p>
+
+<ul>
+    <li><a asp-controller="Clinician" asp-action="Dashboard">Dashboard Home</a></li>
+    <li><a asp-controller="Home" asp-action="Index">Go to Site Home</a></li>
+</ul>
+
+<form asp-controller="Account" asp-action="Logout" method="post">
+    <button type="submit" class="btn btn-danger">Logout</button>
+</form>

@@ -1,15 +1,62 @@
-html {
-  font-size: 14px;
+/* site.css - base styles for Graphene Trace Software */
+
+:root{
+    --primary:#e45a67;
+    --muted:#6b7280;
+    --card-bg:#ffffff;
+    --surface:#f8f9fa;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+body{
+    font-family: Inter, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background:var(--surface);
+    color:#111827;
 }
 
-.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
-  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+/* Navbar */
+.navbar-brand .logo{ width:36px; height:36px; object-fit:contain; }
+.brand-text{ font-weight:700; font-size:1.05rem; color:var(--primary); }
+
+.navbar .nav-link{ color:#374151; margin-right:6px; }
+.navbar .nav-link:hover{ color:var(--primary); }
+
+.btn-primary{
+    background:var(--primary);
+    border-color:var(--primary);
+    color:#fff;
+}
+
+.btn-outline-primary{
+    border-color:var(--primary);
+    color:var(--primary);
+}
+
+/* Container cards */
+.card{
+    border-radius:12px;
+    box-shadow:0 6px 20px rgba(15,23,42,0.05);
+    background:var(--card-bg);
+}
+
+/* Forms */
+.form-control{ border-radius:8px; }
+
+/* Hero */
+.hero{ background:linear-gradient(180deg,#fff 0%, #fbfbfd 100%); padding:70px 0; }
+.title{ font-size:2.4rem; font-weight:700; }
+.subtitle{ color:var(--muted); }
+
+/* Feature cards */
+.feature-card{ transition:transform .2s ease, box-shadow .2s ease; }
+.feature-card:hover{ transform:translateY(-6px); box-shadow:0 8px 30px rgba(15,23,42,0.08); }
+
+/* Footer */
+.site-footer{ font-size:0.95rem; }
+
+/* Responsive tweaks */
+@media (max-width:768px){
+    .title{ font-size:1.6rem; }
+    .hero{ padding:40px 0; }
 }
 
 html {
@@ -19,4 +66,18 @@ html {
 
 body {
   margin-bottom: 60px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  font-size: 14px;
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
 }

@@ -1,5 +1,4 @@
 using Microsoft.AspNetCore.Mvc;
-using team_golden_virus.Models;
 
 namespace team_golden_virus.Controllers
 {
@@ -7,10 +6,16 @@ namespace team_golden_virus.Controllers
     {
         public IActionResult Index()
         {
-            return View();
+            return View(); // Views/Home/Index.cshtml
         }
 
         public IActionResult Privacy()
+        {
+            return View(); // Views/Home/Privacy.cshtml
+        }
+
+        // Optional error action if layout uses it
+        public IActionResult Error()
         {
             return View();
         }
