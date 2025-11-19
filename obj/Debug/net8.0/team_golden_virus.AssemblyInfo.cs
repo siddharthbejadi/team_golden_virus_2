@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Graphene_Trace_Software")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1a84bacb941bba13a479465c2ac477c59727dc48")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+da13e253fe91bc31383a5ecc3e7a100819bb9c68")]
 [assembly: System.Reflection.AssemblyProductAttribute("Graphene_Trace_Software")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Graphene_Trace_Software")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
