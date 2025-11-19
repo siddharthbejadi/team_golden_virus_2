@@ -1,0 +1,84 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    ViewData["Title"] = "Admin Dashboard";
+}
+
+<style>
+:root {
+  --bg: #080c1b;
+  --bg-card: #11172d;
+  --accent: #6b82ff;
+  --danger: #ff5b7a;
+  --warning: #ffc857;
+  --success: #4cd47c;
+  --text-main: #f0f3ff;
+  --text-muted: #9aa4c5;
+  --border-soft: #252c47;
+}
+.admin-layout { display: grid; grid-template-columns: 240px 1fr; min-height: 100vh; }
+.sidebar { background: #0b1024; padding: 20px; border-right: 1px solid var(--border-soft); display: flex; flex-direction: column; gap: 18px; }
+.sidebar h2 { margin: 0; font-size: 1.3rem; }
+.nav-link { padding: 10px 12px; border-radius: 10px; text-decoration: none; color: var(--text-main); background: transparent; border: 1px solid transparent; transition: 0.15s; }
+.nav-link:hover { background: #131a33; border-color: var(--border-soft); }
+.main { padding: 30px; display: flex; flex-direction: column; gap: 26px; }
+.header { display: flex; justify-content: space-between; align-items: center; }
+.header h1 { margin: 0; }
+.stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.stat-card { background: var(--bg-card); padding: 20px; border-radius: 14px; border: 1px solid var(--border-soft); }
+.stat-label { color: var(--text-muted); font-size: 0.8rem; }
+.stat-value { font-size: 1.6rem; font-weight: 600; margin-top: 6px; }
+.panel { background: var(--bg-card); padding: 20px; border-radius: 14px; border: 1px solid var(--border-soft); }
+.panel h2 { margin-top: 0; }
+.bug-item, .complaint-item { background: #0f1630; padding: 12px; border-radius: 10px; margin-bottom: 10px; border: 1px solid #1f2744; }
+.btn { padding: 8px 16px; border-radius: 999px; text-decoration: none; color: white; background: var(--accent); font-size: 0.9rem; transition: 0.15s; }
+.btn:hover { background: #8e9eff; }
+</style>
+
+<div class="admin-layout">
+  <aside class="sidebar">
+    <h2>Admin Panel</h2>
+    <a class="nav-link" href="#">Dashboard Overview</a>
+    <a class="nav-link" href="#">Manage Users</a>
+    <a class="nav-link" href="#">Bug Reports</a>
+    <a class="nav-link" href="#">User Complaints</a>
+    <a class="nav-link" href="#">System Logs</a>
+  </aside>
+
+  <main class="main">
+    <div class="header">
+      <h1>Welcome, @User?.Identity?.Name</h1>
+      <a class="btn" href="#">+ Add New User</a>
+    </div>
+    <section class="stat-grid">
+        <div class="stat-label">Total Users</div>
+        <div class="stat-value">58</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Active Issues</div>
+        <div class="stat-value" style="color: var(--warning);">12</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Open Complaints</div>
+        <div class="stat-value" style="color: var(--danger);">7</div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <h2>Test System & Fix Bugs</h2>
+      <p style="color: var(--text-muted); margin-bottom:10px;">Run diagnostics, test features, and track issues.</p>
+      <div class="bug-item">?? Sensor data stream intermittent — needs investigation</div>
+      <div class="bug-item">?? Chat module throws null exception on reconnect</div>
+      <div class="bug-item">?? Role assignment dropdown not loading for some users</div>
+      <a class="btn" href="#">Run Full System Test</a>
+    </section>
+
+    <section class="panel">
+      <h2>User Complaints</h2>
+      <p style="color: var(--text-muted); margin-bottom:10px;">Latest complaints from patients & clinicians.</p>
+      <div class="complaint-item">?? Patient A: "Live map shows outdated measurements."</div>
+      <div class="complaint-item">?? Clinician B: "Unable to access assigned patient history."</div>
+      <div class="complaint-item">?? Patient C: "Alerts show too frequently, even at rest."</div>
+      <a class="btn" href="#">View All Complaints</a>
+    </section>
+  </main>
+</div>

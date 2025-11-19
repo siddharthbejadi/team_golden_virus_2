@@ -1,1 +1,33 @@
-[]
+[
+  {
+    "ContainingType": "team_golden_virus.Controllers.DebugController",
+    "Method": "Users",
+    "RelativePath": "debug/users",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "team_golden_virus.Controllers.DebugController",
+    "Method": "Validate",
+    "RelativePath": "debug/validate",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "input",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

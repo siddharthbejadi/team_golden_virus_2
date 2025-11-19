@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gangadhar\\OneDrive\\Documents\\Desktop\\abhi\\software_engineering\\team 2\\team_golden_virus.csproj": {}
+    "C:\\Users\\Gangadhar\\Source\\Repos\\team_golden_virus_2\\team_golden_virus.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gangadhar\\OneDrive\\Documents\\Desktop\\abhi\\software_engineering\\team 2\\team_golden_virus.csproj": {
+    "C:\\Users\\Gangadhar\\Source\\Repos\\team_golden_virus_2\\team_golden_virus.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gangadhar\\OneDrive\\Documents\\Desktop\\abhi\\software_engineering\\team 2\\team_golden_virus.csproj",
+        "projectUniqueName": "C:\\Users\\Gangadhar\\Source\\Repos\\team_golden_virus_2\\team_golden_virus.csproj",
         "projectName": "Graphene_Trace_Software",
-        "projectPath": "C:\\Users\\Gangadhar\\OneDrive\\Documents\\Desktop\\abhi\\software_engineering\\team 2\\team_golden_virus.csproj",
+        "projectPath": "C:\\Users\\Gangadhar\\Source\\Repos\\team_golden_virus_2\\team_golden_virus.csproj",
         "packagesPath": "C:\\Users\\Gangadhar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gangadhar\\OneDrive\\Documents\\Desktop\\abhi\\software_engineering\\team 2\\obj\\",
+        "outputPath": "C:\\Users\\Gangadhar\\Source\\Repos\\team_golden_virus_2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -50,6 +50,20 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.7, )"

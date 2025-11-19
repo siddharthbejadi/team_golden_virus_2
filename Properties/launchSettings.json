@@ -10,7 +10,8 @@
   },
   "profiles": {
     "http": {
-      "commandName": "Pro]\     "dotnetRunMessages": true,
+      "commandName": "Project",
+      "dotnetRunMessages": true,
       "launchBrowser": true,
       "applicationUrl": "http://localhost:5054",
       "environmentVariables": {

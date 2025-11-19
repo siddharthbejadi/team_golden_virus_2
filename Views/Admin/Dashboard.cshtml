@@ -11,5 +11,6 @@
 </ul>
 
 <form asp-controller="Account" asp-action="Logout" method="post">
+    @Html.AntiForgeryToken()
     <button type="submit" class="btn btn-danger">Logout</button>
 </form>

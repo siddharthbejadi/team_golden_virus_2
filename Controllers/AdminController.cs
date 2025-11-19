@@ -17,4 +17,13 @@ namespace team_golden_virus.Controllers
 
         // You would add actions like CreateUser() or ManageTickets() here later.
     }
+
+    [Authorize(Roles = "Admin")]
+    public class AdminDashboardController : Controller
+    {
+        public IActionResult Index()
+        {
+            return View();
+        }
+    }
 }
